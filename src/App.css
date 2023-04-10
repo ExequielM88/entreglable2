@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+}
+
+.img-loading {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+body {
+    margin: 0;
+    background-image: url("/img/fondo3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+    
+}
+
+
+.container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+    background-color: rgba(62, 53, 53, 0.1);
+    width: 40%;
+    border-radius: 10%;
+    
+
+    
+}
+
+.container-info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.infotime {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    
+    
+    
+    
+    
+}
+
+.info-time2{
+    width: 50%;
+   
+    
+    
+}
+
+.span1 {
+    font-weight: 50;
+    color:rgb(45, 43, 43);
+    text-align: start;
+    
+}
+
+
+
+
+
+.footer {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 { 
+    font-size: 50px;
+}
+
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 30px;
+}
+header{
+    
+    width: 50%;
+}
+
+.icon {
+   width: 100%;
+   
+}
+
+
+button {
+    width: 230px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+    box-shadow: 10px 5px 5px black;
+    border: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+    color: coral;
+    translate: 0 -1rem;
+    transition: 0.5s;
+}
+
+
+
+@media (max-width:700px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .container-info {
+        width: 80%;
+    }
+
+    header {
+        width: 40%;
+        
+    }
+
+    .info-time2 {
+        width: 80%;
+        
+    }
+
+    .infotime {
+        width: 100%;
+    }
+
+}    
